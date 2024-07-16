@@ -4,67 +4,67 @@
       "id": 1,
       "title": "Ugali",
       "imageUrl":"images/ugali.jpg",
-      "price": "50"
+      "price": "50 ksh"
     },
     {
       "id": 2,
       "title": "Pilau",
       "imageUrl":"images/pilau.jpg",
-      "price": "70"
+      "price": "70 ksh"
     },
     {
       "id": 3,
       "title": "Chips",
       "imageUrl":"images/chips.jpg",
-      "price": "120"
+      "price": "120 ksh"
     },
     {
       "id": 4,
       "title": "Chapati",
       "imageUrl":"images/chapati.jpg",
-      "price": "50"
+      "price": "50 ksh"
     },
     {
       "id": 5,
       "title": "Beef Stew",
       "imageUrl":"images/beef-stew.jpeg",
-      "price": "60"
+      "price": "60 ksh"
     },
     {
       "id": 6,
       "title": "Fried fish",
       "imageUrl":"images/Fried-fish.jpg",
-      "price": "50"
+      "price": "50 ksh"
     },
     {
       "id": 7,
       "title": "Nyama Choma",
       "imageUrl":"images/nyama-choma.jpeg",
-      "price": "100"
+      "price": "100 ksh"
     },    
     {
       "id": 8,
       "title": "Salad",
       "imageUrl":"images/salad.jpg",
-      "price": "80"
+      "price": "80 ksh"
     },   
     {
       "id": 9,
       "title": "Passion Juice",
       "imageUrl":"images/passion.jpeg",
-      "price": "70"
+      "price": "70 ksh"
     },
     {
       "id": 10,
       "title": "Apple Juice",
       "imageUrl":"images/apple.jpeg",
-      "price": "70"
+      "price": "70 ksh"
     },
     {
       "id": 11,
       "title": "Cocktail juice",
       "imageUrl":"images/cocktails.jpeg",
-      "price": "100"
+      "price": "100 ksh"
     }
   ]
 }
