@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000/menu";
+const apiUrl = "https://namfoods-mock-remote-backend.vercel.app/menu";
 
 // Getting All Resources
 fetch(apiUrl)
