@@ -5,44 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NamFoods</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="./script.js" defer></script>
   </head>
   <body>
-    <h1 id="title">NamFoods</h1>
 
-    <div id="container1">
-      <div class="Texts">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-          blanditiis vero repellat esse praesentium quibusdam rerum similique
-          fugit beatae deserunt dignissimos eligendi, expedita laboriosam earum
-          consectetur quo aperiam ea quam!
-        </p>
-      </div>
-      <div class="image1">
-        <img src="https://images.unsplash.com/photo-1484980972926-edee96e0960d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
-      </div>
+    <div id="header">
+      <h1>NamFoods</h1>
     </div>
 
-    <div id="container2">
-      <div class="image2">
-        <img
-          src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
-      </div>
-      <div class="Texts">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-          blanditiis vero repellat esse praesentium quibusdam rerum similique
-          fugit beatae deserunt dignissimos eligendi, expedita laboriosam earum
-          consectetur quo aperiam ea quam!
-        </p>
-      </div>
-    </div>
-    
-    <h2 id="fooditems">Food Menu</h2>
-    <div id="menu-wrapper">
-      <!-- Menu -->
-    </div>
+    <section id="section1">
 
-    <script src="./script.js"></script>
+      <h2 class="titles">HOME</h2>
+
+      <nav>
+        <h2>
+          <a href="#section1">Home</a>
+          <a href="#section2">Food menu</a>
+        </h2>
+      </nav>
+
+      <div class="container">
+
+        <div class="image">
+          <img src="images/ambience.jpg"/>
+        </div>
+
+        <div class="text">
+          <p>
+            <strong>Welcome to NamFoods</strong>, where we serve delicious and authentic cuisine
+            made with the freshest ingredients. Our mission is to provide a
+            delightful dining experience with a diverse menu that caters to all
+            tastes. Join us for a meal and enjoy the best culinary offerings in
+            town.
+          </p>
+        </div>
+
+        <div class="image">
+          <img
+            src="images/outside.jpg"
+          />
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="text">
+          <p>
+            At NamFoods, we take pride in offering a wide variety of dishes to
+            satisfy every palate. From our signature dishes to seasonal specials,
+            each meal is prepared with utmost care and precision. Our chefs use
+            locally sourced ingredients to ensure the highest quality and freshness
+            in every bite. Enjoy our cozy ambiance and let our friendly staff make
+            your dining experience unforgettable.
+          </p>
+        </div>
+
+        <div class="image">
+          <img
+            src="images/bar.jpg"
+          />
+        </div>
+        <div class="text">
+          <p>
+            We also offer a selection of fine wines, craft beers, and artisanal
+            cocktails to complement your meal. Our restaurant features both indoor
+            and outdoor seating areas, perfect for any occasion. Whether you're here
+            to celebrate a special event or simply enjoy a night out, NamFoods
+            provides a warm and welcoming atmosphere that you'll love coming back to.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="section2">
+      <h2 class="titles">Food Menu</h2>
+      <nav>
+        <h2>
+          <a href="#section1">Home</a>
+          <a href="#section2">Food menu</a>
+        </h2>
+      </nav>
+      <div id="menu-wrapper">
+        <!-- Menu -->
+      </div>
+    </section>
   </body>
 </html>
