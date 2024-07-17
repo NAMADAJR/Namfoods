@@ -6,88 +6,127 @@
     <title>NamFoods</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="./script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-
     <div id="header">
       <h1>NamFoods</h1>
-    </div>
-
-    <section id="section1">
-
-      <h2 class="titles">HOME</h2>
-
       <nav>
         <h2>
-          <a href="#section1">Home</a>
-          <a href="#section2">Food menu</a>
+          <a href="#Home">Home</a>
+          <a href="#Food-menu">Food menu</a>
+          <a href="#feedback">Feedback</a>
         </h2>
       </nav>
+    </div>
+
+    <section id="Home">
+      <h2 class="titles">HOME</h2>
 
       <div class="container">
-
         <div class="image">
-          <img src="images/ambience.jpg"/>
+          <img src="images/ambience.jpg" alt="Restaurant Ambience" />
         </div>
 
         <div class="text">
           <p>
-            <strong>Welcome to NamFoods</strong>, where we serve delicious and authentic cuisine
-            made with the freshest ingredients. Our mission is to provide a
-            delightful dining experience with a diverse menu that caters to all
-            tastes. Join us for a meal and enjoy the best culinary offerings in
-            town.
+            <strong>Welcome to NamFoods</strong>, where we serve delicious and
+            authentic cuisine made with the freshest ingredients. Our mission is
+            to provide a delightful dining experience with a diverse menu that
+            caters to all tastes. Join us for a meal and enjoy the best culinary
+            offerings in town.
           </p>
         </div>
 
         <div class="image">
-          <img
-            src="images/outside.jpg"
-          />
+          <img src="images/outside.jpg" alt="Restaurant Exterior" />
         </div>
       </div>
 
       <div class="container">
-
         <div class="text">
           <p>
             At NamFoods, we take pride in offering a wide variety of dishes to
-            satisfy every palate. From our signature dishes to seasonal specials,
-            each meal is prepared with utmost care and precision. Our chefs use
-            locally sourced ingredients to ensure the highest quality and freshness
-            in every bite. Enjoy our cozy ambiance and let our friendly staff make
-            your dining experience unforgettable.
+            satisfy every palate. From our signature dishes to seasonal
+            specials, each meal is prepared with utmost care and precision. Our
+            chefs use locally sourced ingredients to ensure the highest quality
+            and freshness in every bite. Enjoy our cozy ambiance and let our
+            friendly staff make your dining experience unforgettable.
           </p>
         </div>
 
         <div class="image">
-          <img
-            src="images/bar.jpg"
-          />
+          <img src="images/bar.jpg" alt="Bar Area" />
         </div>
         <div class="text">
           <p>
             We also offer a selection of fine wines, craft beers, and artisanal
-            cocktails to complement your meal. Our restaurant features both indoor
-            and outdoor seating areas, perfect for any occasion. Whether you're here
-            to celebrate a special event or simply enjoy a night out, NamFoods
-            provides a warm and welcoming atmosphere that you'll love coming back to.
+            cocktails to complement your meal. Our restaurant features both
+            indoor and outdoor seating areas, perfect for any occasion. Whether
+            you're here to celebrate a special event or simply enjoy a night
+            out, NamFoods provides a warm and welcoming atmosphere that you'll
+            love coming back to.
           </p>
         </div>
       </div>
     </section>
 
-    <section id="section2">
-      <h2 class="titles">Food Menu</h2>
-      <nav>
-        <h2>
-          <a href="#section1">Home</a>
-          <a href="#section2">Food menu</a>
-        </h2>
-      </nav>
-      <div id="menu-wrapper">
-        <!-- Menu -->
+    <section id="Food-menu">
+      <div>
+        <h2 class="titles">Food Menu</h2>
+
+        <div id="menu-wrapper">
+          <!-- Menu -->
+        </div>
       </div>
+    </section>
+
+    <section id="feedback">
+      <h2 class="titles">FEEDBACK</h2>
+      <div class="container">
+      <div id="form">
+        <form>
+          <h2>Feedback form</h2>
+          <div>
+
+            <div class="rating" style="width: 20rem">
+              <input id="rating-5" type="radio" name="rating" value="5" />
+              <label for="rating-5"><i class="fas fa-3x fa-star"></i></label>
+              <input id="rating-4" type="radio" name="rating" value="4" checked />
+              <label for="rating-4"><i class="fas fa-3x fa-star"></i></label>
+              <input id="rating-3" type="radio" name="rating" value="3" />
+              <label for="rating-3"><i class="fas fa-3x fa-star"></i></label>
+              <input id="rating-2" type="radio" name="rating" value="2" />
+              <label for="rating-2"><i class="fas fa-3x fa-star"></i></label>
+              <input id="rating-1" type="radio" name="rating" value="1" />
+              <label for="rating-1"><i class="fas fa-3x fa-star"></i></label>
+            </div>
+
+            <input
+              id="customer-name"
+              type="text"
+              placeholder="Customer name"
+              required
+            />
+          </div>
+          <div>
+            <input id="feedback-text" type="text" placeholder="Feedback" required />
+          </div>
+          <div>
+            <button type="submit" id="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+
+
+    </div>
     </section>
   </body>
 </html>
+
