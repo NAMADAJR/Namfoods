@@ -1,4 +1,4 @@
-# Phase 1 week 2 Code challange (Flatdango-Flatiron Movie Theater)
+# Namfoods Restaraunt
 
 ## By Namada Junior
 
@@ -16,12 +16,17 @@ Here is the link to the website : [NamFoods](https://namfoods.vercel.app/)
 This is how the website looks upon being loaded on to the browser.
 ![image](images/image1.png)
 
-This is how the food menu section of the website looks lie
+This is how the food menu section of the website looks like
 ![image](images/image2.png)
 
 As the user looks through the menu, when they hovers over an item it slightly pops up, when the item is clicked the user will recieve an alert that will inform them of the order placed.
 ![image](images/image3.png)
 
+This is how the feedback section of the page looks like.
+![image](images/image4.png)
+
+If the user fills the feedback form, upon submittingthe forn, an alert containing the infortion entered will be displayed.
+![image](images/image5.png)
 
 
 ## Properties of the website
@@ -167,9 +172,32 @@ This is the structure of the HTML file which is the foundation of the page.
           </form>
         </div>
       </div>
+
+      <div id="footer">
+        <div>
+          <i class="fa-solid fa-map-location fa-3x"></i>
+          <p>Street Plot 29-35, Eight Street, Industrial Area Kampala</p>
+          <p>P.O. Box 12141 Namuwongo Rd</p>
+          <p>Kampala, Kampala Capital City</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone fa-3x"></i>
+          <p>+254 712 345 678</p>
+          <p>+254 721 543 876</p>
+          <p>namfoods@yahoo.com</p>
+        </div>
+      </div>
+
     </section>
+
+<div id="copy-version">
+  <p>Copyright &copy; 2024 NamFoods. All rights reserved.</p>
+  <p>Version 1.0</p>
+</div>
+
   </body>
 </html>
+
 ```
 
 ### CSS
@@ -321,6 +349,19 @@ nav {
 .rating input:checked + label,
 .rating input:checked + label ~ label {
   color: yellow;
+}
+
+#footer {
+  background-color: black;
+  color: beige;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p {
+  text-align: center;
 }
 
 ```
