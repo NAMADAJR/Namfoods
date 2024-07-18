@@ -90,43 +90,72 @@
     <section id="feedback">
       <h2 class="titles">FEEDBACK</h2>
       <div class="container">
-      <div id="form">
-        <form>
-          <h2>Feedback form</h2>
-          <div>
+        <div id="form">
+          <form>
+            <h2>Feedback form</h2>
+            <div>
+              <div class="rating" style="width: 20rem">
+                <input id="rating-5" type="radio" name="rating" value="5" />
+                <label for="rating-5"><i class="fas fa-3x fa-star"></i></label>
+                <input
+                  id="rating-4"
+                  type="radio"
+                  name="rating"
+                  value="4"
+                  checked
+                />
+                <label for="rating-4"><i class="fas fa-3x fa-star"></i></label>
+                <input id="rating-3" type="radio" name="rating" value="3" />
+                <label for="rating-3"><i class="fas fa-3x fa-star"></i></label>
+                <input id="rating-2" type="radio" name="rating" value="2" />
+                <label for="rating-2"><i class="fas fa-3x fa-star"></i></label>
+                <input id="rating-1" type="radio" name="rating" value="1" />
+                <label for="rating-1"><i class="fas fa-3x fa-star"></i></label>
+              </div>
 
-            <div class="rating" style="width: 20rem">
-              <input id="rating-5" type="radio" name="rating" value="5" />
-              <label for="rating-5"><i class="fas fa-3x fa-star"></i></label>
-              <input id="rating-4" type="radio" name="rating" value="4" checked />
-              <label for="rating-4"><i class="fas fa-3x fa-star"></i></label>
-              <input id="rating-3" type="radio" name="rating" value="3" />
-              <label for="rating-3"><i class="fas fa-3x fa-star"></i></label>
-              <input id="rating-2" type="radio" name="rating" value="2" />
-              <label for="rating-2"><i class="fas fa-3x fa-star"></i></label>
-              <input id="rating-1" type="radio" name="rating" value="1" />
-              <label for="rating-1"><i class="fas fa-3x fa-star"></i></label>
+              <input
+                id="customer-name"
+                type="text"
+                placeholder="Customer name"
+                required
+              />
             </div>
-
-            <input
-              id="customer-name"
-              type="text"
-              placeholder="Customer name"
-              required
-            />
-          </div>
-          <div>
-            <input id="feedback-text" type="text" placeholder="Feedback" required />
-          </div>
-          <div>
-            <button type="submit" id="btn">Submit</button>
-          </div>
-        </form>
+            <div>
+              <input
+                id="feedback-text"
+                type="text"
+                placeholder="Feedback"
+                required
+              />
+            </div>
+            <div>
+              <button type="submit" id="btn">Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
 
+      <div id="footer">
+        <div>
+          <i class="fa-solid fa-map-location fa-3x"></i>
+          <p>Street Plot 29-35, Eight Street, Industrial Area Kampala</p>
+          <p>P.O. Box 12141 Namuwongo Rd</p>
+          <p>Kampala, Kampala Capital City</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-phone fa-3x"></i>
+          <p>+254 712 345 678</p>
+          <p>+254 721 543 876</p>
+          <p>namfoods@yahoo.com</p>
+        </div>
+      </div>
 
-    </div>
     </section>
+
+<div id="copy-version">
+  <p>Copyright &copy; 2024 NamFoods. All rights reserved.</p>
+  <p>Version 1.0</p>
+</div>
+
   </body>
 </html>
-
