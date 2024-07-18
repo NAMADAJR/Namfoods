@@ -109,7 +109,7 @@ nav {
     font-size: 18px;
   }
 
-  h2{
+  h2 {
     color: beige;
   }
 }
@@ -142,4 +142,17 @@ nav {
 .rating input:checked + label,
 .rating input:checked + label ~ label {
   color: yellow;
+}
+
+#footer {
+  background-color: black;
+  color: beige;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p {
+  text-align: center;
 }
