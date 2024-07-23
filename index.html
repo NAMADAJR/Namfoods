@@ -15,116 +15,117 @@
     />
   </head>
   <body>
-    <div id="header">
+    <header id="header">
       <h1>NamFoods</h1>
-    </div>
+    </header>
 
-    <section id="Home">
-      <h2 class="titles">HOME</h2>
-
-      <div class="container1">
-        <div class="text">
-          <p>
-            <strong>Welcome to NamFoods</strong>, where we serve delicious and
-            authentic cuisine made with the freshest ingredients. Our mission is
-            to provide a delightful dining experience with a diverse menu that
-            caters to all tastes. Join us for a meal and enjoy the best culinary
-            offerings in town.
-          </p>
+    <main>
+      <section id="home">
+        <h2 class="titles">Home</h2>
+        <div class="container1">
+          <div class="text1">
+            <p>
+              <strong>Welcome to NamFoods</strong>, where we serve delicious and
+              authentic cuisine made with the freshest ingredients. Our mission is
+              to provide a delightful dining experience with a diverse menu that
+              caters to all tastes. Join us for a meal and enjoy the best culinary
+              offerings in town.
+            </p>
+          </div>
         </div>
-      </div>
-
-      <div class="container2">
-        <div class="text">
-          <p>
-            At NamFoods, we take pride in offering a wide variety of dishes to
-            satisfy every palate. From our signature dishes to seasonal
-            specials, each meal is prepared with utmost care and precision. Our
-            chefs use locally sourced ingredients to ensure the highest quality
-            and freshness in every bite. Enjoy our cozy ambiance and let our
-            friendly staff make your dining experience unforgettable.
-          </p>
+        <div class="container2">
+          <div class="text2">
+            <p>
+              At NamFoods, we take pride in offering a wide variety of dishes to
+              satisfy every palate. From our signature dishes to seasonal
+              specials, each meal is prepared with utmost care and precision. Our
+              chefs use locally sourced ingredients to ensure the highest quality
+              and freshness in every bite. Enjoy our cozy ambiance and let our
+              friendly staff make your dining experience unforgettable.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="Food-menu">
-      <div>
+      <section id="ambience">
+        <div class="image-container">
+          <span style="--i: 1">
+            <img src="images/ambience.jpg" alt="Indoor">
+          </span>
+          <span style="--i: 2">
+            <img src="images/bar.jpg" alt="Bar">
+          </span>
+          <span style="--i: 3">
+            <img src="images/outside.jpg" alt="Outside">  
+          </span>
+          <span style="--i: 4">
+            <img src="images/lounge.jpg" alt="Lounge">
+          </span>
+        </div>
+        <div class="btn-container">
+          <button class="btn" id="prev"><i class="fa-solid fa-rotate-left"></i></button>
+          <button class="btn" id="next"><i class="fa-solid fa-rotate-right"></i></button>
+        </div>
+      </section>
+
+      <section id="food-menu">
         <h2 class="titles">Food Menu</h2>
-
         <div id="menu-wrapper">
           <!-- Menu -->
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="feedback">
-      <h2 class="titles">FEEDBACK</h2>
-      <div class="container">
-        <div id="form">
-          <form>
-            <h2>Feedback form</h2>
-            <div>
-              <div class="rating" style="width: 20rem">
-                <input id="rating-5" type="radio" name="rating" value="5" />
-                <label for="rating-5"><i class="fas fa-3x fa-star"></i></label>
-                <input
-                  id="rating-4"
-                  type="radio"
-                  name="rating"
-                  value="4"
-                  checked
-                />
-                <label for="rating-4"><i class="fas fa-3x fa-star"></i></label>
-                <input id="rating-3" type="radio" name="rating" value="3" />
-                <label for="rating-3"><i class="fas fa-3x fa-star"></i></label>
-                <input id="rating-2" type="radio" name="rating" value="2" />
-                <label for="rating-2"><i class="fas fa-3x fa-star"></i></label>
-                <input id="rating-1" type="radio" name="rating" value="1" />
-                <label for="rating-1"><i class="fas fa-3x fa-star"></i></label>
+      <section id="feedback">
+        <h2 class="titles">Feedback</h2>
+        <div class="container">
+          <div id="form">
+            <form>
+              <h2>Feedback Form</h2>
+              <div>
+                <div class="rating" style="width: 20rem">
+                  <input id="rating-5" type="radio" name="rating" value="5" />
+                  <label for="rating-5"><i class="fas fa-3x fa-star"></i></label>
+                  <input id="rating-4" type="radio" name="rating" value="4" checked />
+                  <label for="rating-4"><i class="fas fa-3x fa-star"></i></label>
+                  <input id="rating-3" type="radio" name="rating" value="3" />
+                  <label for="rating-3"><i class="fas fa-3x fa-star"></i></label>
+                  <input id="rating-2" type="radio" name="rating" value="2" />
+                  <label for="rating-2"><i class="fas fa-3x fa-star"></i></label>
+                  <input id="rating-1" type="radio" name="rating" value="1" />
+                  <label for="rating-1"><i class="fas fa-3x fa-star"></i></label>
+                </div>
+
+                <input id="customer-name" type="text" placeholder="Customer name" required />
               </div>
-
-              <input
-                id="customer-name"
-                type="text"
-                placeholder="Customer name"
-                required
-              />
-            </div>
-            <div>
-              <input
-                id="feedback-text"
-                type="text"
-                placeholder="Feedback"
-                required
-              />
-            </div>
-            <div>
-              <button type="submit" id="btn">Submit</button>
-            </div>
-          </form>
+              <div>
+                <input id="feedback-text" type="text" placeholder="Feedback" required />
+              </div>
+              <div>
+                <button type="submit" id="btn">Submit</button>
+              </div>
+            </form>
+          </div>
         </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div>
+        <i class="fa-solid fa-map-location fa-3x"></i>
+        <p>Street Plot 17-38, Second Street, Living area Seaside</p>
+        <p>P.O. Box 12141 Mango Rd</p>
+        <p>Ocean, Seaside Capital City</p>
       </div>
-
-      <div id="footer">
-        <div>
-          <i class="fa-solid fa-map-location fa-3x"></i>
-          <p>Street Plot 17-38, Second Street, Living area Seaside</p>
-          <p>P.O. Box 12141 Mango Rd</p>
-          <p>Ocean, Seaside Capital City</p>
-        </div>
-        <div>
-          <i class="fa-solid fa-phone fa-3x"></i>
-          <p>+254 7142 3345 2678</p>
-          <p>+254 7241 5423 8764</p>
-          <p>namfoods@contact.com</p>
-        </div>
+      <div>
+        <i class="fa-solid fa-phone fa-3x"></i>
+        <p>+254 7142 3345 2678</p>
+        <p>+254 7241 5423 8764</p>
+        <p>namfoods@contact.com</p>
       </div>
-    </section>
-
-    <div id="copy-version">
-      <p>Copyright &copy; 2024 NamFoods. All rights reserved.</p>
-      <p>Version 1.1</p>
-    </div>
+      <div id="copy-version">
+        <p>Copyright &copy; 2024 NamFoods. All rights reserved.</p>
+        <p>Version 1.1</p>
+      </div>
+    </footer>
   </body>
 </html>
