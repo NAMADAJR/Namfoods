@@ -1,20 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Ga+Maamli&family=Jacquarda+Bastarda+9+Charted&family=Margarine&family=Playball&family=Playwrite+IS&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Ga+Maamli&family=Jacquarda+Bastarda+9+Charted&family=Margarine&family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IS&display=swap');
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: rgb(133, 55, 0);
-  font-family: "Margarine", sans-serif;
+  background-color: rgb(27, 27, 27);
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-style: normal;
 }
 
 #header {
   color: beige;
-  font-family: "Margarine", sans-serif;
-  background-color: black;
+  font-family: "Playfair Display", serif;
   display: flex;
   justify-content: space-evenly;
 
@@ -24,39 +23,35 @@ body {
 }
 
 .titles {
-  color: black;
-  text-decoration: underline wavy;
+  color: beige;
   text-align: center;
-  background-color: beige;
 }
 
-nav {
+.container1 {
   display: flex;
-  justify-content: center;
-
-  a {
-    color: beige;
-    text-decoration: none;
-    padding: 7px;
-  }
+  justify-content: space-around;
+  background-image: url(../images/ambience2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
 }
 
-.container {
+.container2 {
   display: flex;
   justify-content: space-around;
   padding: 20px;
 }
 
 .text {
-  font-family: "Margarine", sans-serif;
-  color: black;
+  font-family: "Playfair Display", serif;
+  color: beige;
   font-size: 30px;
   padding: 15px;
   margin-top: 200px;
 }
 
 .image {
-  size: 350px;
+  size: 500px;
 }
 
 #menu-wrapper {
@@ -76,10 +71,15 @@ nav {
   background-color: black;
   color: beige;
   transition: all 0.7s;
+
+  h3 {
+    font-size: 25px;
+  }
 }
 
 .photo:hover {
   transform: scale(1.1);
+  background-color: grey;
 }
 
 .photo img {
@@ -90,6 +90,7 @@ nav {
 #form {
   display: flex;
   justify-content: center;
+  padding: 10px;
 
   form {
     display: flex;
@@ -155,4 +156,10 @@ nav {
 
 p {
   text-align: center;
+  font-size: 17px;
+}
+
+#copy-version {
+  font-size: 15px;
+  color: beige;
 }
