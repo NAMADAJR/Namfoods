@@ -42,16 +42,97 @@ body {
   padding: 20px;
 }
 
-.text {
+.text1 {
   font-family: "Playfair Display", serif;
   color: beige;
-  font-size: 30px;
-  padding: 15px;
+  font-size: 60px;
   margin-top: 200px;
+  width: 900px;
 }
 
-.image {
-  size: 500px;
+.text2 {
+  font-family: "Playfair Display", serif;
+  color: beige;
+  font-size: 60px;
+  margin-top: 20px;
+  width: 900px;
+}
+
+#ambience{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px; 
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px; /* Adjust size as needed */
+  height: 450px; /* Adjust size as needed */
+  transform-style: preserve-3d;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: transform 0.7s;
+}
+
+.image-container span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: rotateY(calc(var(--i) * 90deg)) translateZ(200px); /* Adjust translateZ to half the width/height */
+}
+
+.image-container span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px; /* Adjust spacing between buttons */
+}
+
+.btn {
+  background-color: black;
+  color: beige;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.image-container span img:hover {
+  filter: none;
+}
+
+#prev {
+  left: 20%;
+}
+
+#next {
+  right: 20%;
 }
 
 #menu-wrapper {
@@ -71,10 +152,10 @@ body {
   background-color: black;
   color: beige;
   transition: all 0.7s;
+}
 
-  h3 {
-    font-size: 25px;
-  }
+.photo h3 {
+  font-size: 25px;
 }
 
 .photo:hover {
@@ -91,28 +172,28 @@ body {
   display: flex;
   justify-content: center;
   padding: 10px;
+}
 
-  form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    padding: 20px;
-    background-color: black;
-    border-radius: 10px;
-  }
+#form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
 
-  input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 18px;
-  }
+#form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 18px;
+}
 
-  h2 {
-    color: beige;
-  }
+#form h2 {
+  color: beige;
 }
 
 #btn {
@@ -135,9 +216,11 @@ body {
   unicode-bidi: bidi-override;
   color: white;
 }
+
 .rating input {
   display: none;
 }
+
 .rating label:hover,
 .rating label:hover ~ label,
 .rating input:checked + label,
