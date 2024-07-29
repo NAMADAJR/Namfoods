@@ -1,4 +1,4 @@
-# Being upadated to Version 1.1
+# Being updated to Version 1.1
 
 # Namfoods Restaraunt
 
